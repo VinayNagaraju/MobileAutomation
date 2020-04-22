@@ -18,7 +18,7 @@ public class base {
         //Creating the Desired Capabilities to start the mobile automation
         DesiredCapabilities cap=new DesiredCapabilities();
         //Adding desired mobile device to capabilities
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "vinayemu");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "ONEPLUS A6000");
         //Access Android Element
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
         //Adding desired App to capabilities, Used File Method to provide path of app

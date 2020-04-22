@@ -8,5 +8,6 @@ public class uiautotest extends base {
 
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.findElementByAndroidUIAutomator("text(\"views\")").click();
+        driver.findElementByAndroidUIAutomator("text(\"Animation\")").click();
     }
 }
